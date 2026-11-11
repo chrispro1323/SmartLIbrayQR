@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+
+*.out
+*.o
+*.exe
+Biblioteca
+
+
+qrcodes/
+*.png
+
+
+.vscode/
+.DS_Store
+EOF
